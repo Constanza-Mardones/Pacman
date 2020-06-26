@@ -1,0 +1,115 @@
+*{
+ margin:0px;
+ padding: 0px;
+ box-sizing: border-box;	
+}
+body {
+ background-color:rgb(0, 1, 167);
+}
+div.fila  {
+ height: 25px;
+}
+div.fila div {
+ width: 25px;
+ height: 25px;
+ display:inline-block;
+}
+.ladrillos {
+ background-color: white;
+}
+#pacman{
+ background:url("images/pacman.gif");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ width:23px;
+ height:23px;
+ position: absolute;
+}
+#pacman2{
+ background:url("images/pacman2.gif");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ width:26px;
+ height:26px;
+ position: absolute;
+}
+div.monedas {
+ background:url("images/coin.gif");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+h3{
+ display: inline-block;
+ text-align: right;
+ color:white;
+ font-family: "Arial";
+ font-size: 20px;
+ margin-top: 30px;
+ margin-left: 35px;
+}
+#puntuacion{
+ border: 2px solid white;
+ width: 50px;
+ height: 30px;
+ color: white; 
+ text-align: center;
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: 0px;
+ margin-left:0px;
+ display: inline-block;
+}
+puntuacion2{
+ display: inline-block;
+ border: 2px solid white;
+ width: 50px;
+ height: 30px;
+ color: white; 
+ text-align: center;
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: 10px;
+ margin-left: 70px;
+
+}
+div.cereza{
+ background:url("images/cereza.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+#fantasma1{
+ background:url("images/fantasmaceleste.gif");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ position: absolute;
+ width:22px;
+ height:22px;
+}
+#fantasma2{
+ position: absolute;
+ background:url("images/fantasmarosa.gif");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ width:22px;
+ height:22px;
+}
+#vida{
+ display: inline-block;
+ border: 2px solid white;
+ width: 50px;
+ height: 30px;
+ color: white; 
+ text-align: center;
+ font-size: 20px;
+ font-weight: bold;
+ margin-left:0px;
+ margin-top: 0px;
+}
+
